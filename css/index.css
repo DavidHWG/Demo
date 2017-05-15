@@ -1,0 +1,548 @@
+*{margin: 0;padding: 0;}
+body,html{width: 100%;height: auto;font-family: "微软雅黑";font-size: 14px;min-width: 1400px;}
+img{border: 0;outline: 0;}
+a:focus{outline: none;}
+ul li,dl dd dt{list-style: none;}
+em,i{font-style: normal;}
+a,a:link{text-decoration: none;}
+
+.main{
+	margin: 0 auto;
+	width: 1400px;
+	overflow: hidden;
+}
+.relative{
+	position: relative;
+}
+ .bg_01{
+	height: 869px;
+	background: url(../images/bg_01.jpg) no-repeat center top;
+}
+ .bg_01 .main{
+	height: 869px;
+	background: url(../images/bg_01.jpg) no-repeat center top;
+}
+/*导航栏	      开始*/
+ .bg_02{
+	height: 190px;
+	background: url(../images/bg_02.jpg) no-repeat center top;
+}
+ .bg_02 .main{
+	height: 190px;
+	background: url(../images/bg_02.jpg) no-repeat center top;
+	color: #fff;
+}
+ .bg_02 .bg_02_le{
+	position: absolute;
+    left: 0;
+    top: 75px;
+}
+.zxrx{
+	top: 20px;
+	left: 30px;
+	font-size: 25px;
+}
+.phone{
+    top: 23px;
+    left: 40px;
+}
+.phone_num{
+    top: 20px;
+    left: 50px;
+    font-size: 24px;
+}
+.bg_02 .bg_02_ri{
+	position: absolute;
+    left: 0;
+    top: 100px;
+}
+ .bg_02 .bg_02_ri ul li{
+	float: left;
+    margin-right: 50px;
+}
+ .bg_02 .bg_02_ri a{
+	font-size: 18px;
+	color: #fff;
+}
+ .bg_02 .bg_02_ri a:hover{
+ 	color: #e71f1a;
+ }
+/*导航栏	      结束*/
+
+/*车型卖点      开始*/
+ .bg_03{
+	height: 907px;
+	background: url(../images/bg_03.jpg) no-repeat center top;
+}
+ .bg_03 .main{
+	height: 907px;
+	background: url(../images/bg_03.jpg) no-repeat center top;
+}
+.bg_03_le{
+	width: 477px;
+	height: 894px;
+	background: url(../images/baoming.png) no-repeat center top;
+	float:left;
+}
+.bg_03_le .form{
+	text-align: center;
+    position: relative;
+    top: 220px;
+    color: #fff;
+	width: 277px;
+    margin-left: 100px;
+}
+.bg_03_le .form h3{
+	font-size: 22px;
+}
+.bg_03_le .form h5 .have_num{
+	font-size: 18px;
+	color: #f4ec30;
+}
+.hr{
+	border-bottom: 2px solid #fff;
+}
+.have_order{
+	line-height: 45px;
+	margin: 0 !important;
+	text-align: center !important;
+}
+.form h5{
+	margin: 8px 0 4px;
+	text-align: left;
+}
+.form p input{
+    width: 260px;
+    height: 38px;
+    padding-left: 10px;
+}
+#btnOrder{
+	width: 274px;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: bold;
+	background: url(../images/bg_btn.jpg) no-repeat center center;
+	border: 0px;
+	cursor: pointer;
+}
+#btnOrder:active{
+	border: none;
+	outline: medium;
+	background: url(../images/bg_btn_active.jpg) no-repeat center center;
+}
+
+.bg_03_ri{
+	float: left;	
+    margin-top: 50px;
+    width: 923px;
+}
+.bg_03_ri_top{
+	position: relative;
+}
+.public_bt{
+	width: 398px;
+	height: 79px;
+	background: url(../images/bt_bg.png) no-repeat center center;
+	color: #fff;
+}
+.public_bt h2{
+	padding-top: 10px;
+}
+.public_bt h2,.public_bt h3{
+	margin-left:100px;
+}
+.bg_03_ri_top .prev,.bg_03_ri_top .next{
+	display: block;
+	position: absolute;
+	top: 169px;
+}    
+.bg_03_ri_top .prev{
+	left: 53.5px;
+}
+.bg_03_ri_top .next{
+	right: 0px;
+}
+.bg_03_ri_top .bd{
+	overflow: hidden;
+	width: 760px;
+	margin: 20px auto 0;
+    padding-left: 53.5px;
+}
+.bg_03_ri_top ul{
+	width: 760px;
+	overflow: hidden;
+}
+.bg_03_ri_top ul li{
+	width: 160px;
+	position: relative;
+	float: left;
+}
+.bg_03_ri_top ul li img{
+	cursor: pointer;
+}
+.bg_03_ri_top ul li+li{
+	width: 200px;
+	float: right;
+}
+.bg_03_ri_top ul li>p{
+	margin-top: 10px;
+	font-size: 18px;
+	color: #040000;
+	font-weight: bold;
+    margin-left: 40px;
+}
+.black_hover{
+	background: rgba(0,0,0,0.6);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 50%;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	transition: opacity 1s; 
+	-moz-transition: opacity 1s; 
+	-webkit-transition: opacity 1s; 
+	-o-transition: opacity 1s; 
+}
+.bg_03_ri_top ul li:hover .black_hover{
+	opacity: 1;
+	filter:alpha(opacity=100);
+	transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+}
+.black_hover>p{
+	color: #fff;
+    position: relative;
+    top: 60px;
+    width: 120px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.bg_03_ri_bot{
+    margin-top: 40px;
+    position: relative;
+}
+.bg_03_ri_bot p{
+	margin: 20px 0 10px 100px;
+}
+.bg_03_ri_bot .left{
+	float: left;
+	margin: 25px 0 0 100px;
+}
+.bg_03_ri_bot .left a img{
+	display: block;
+}
+.bg_03_ri_bot .right{
+	float: left;
+	width: 395px;
+	margin:30px 0 0 24px;
+}
+.bg_03_ri_bot .right li{
+	height: 45px;
+	vertical-align: middle;
+	padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+.bg_03_ri_bot .right li img{
+	width: 92px;
+	height: 45px;
+	vertical-align: middle;
+	margin-right: 12px;
+    -moz-transition: all 0.5s ease-in-out 0s;   
+    -o-transition: all 0.5s ease-in-out 0s;   
+    -webkit-transition: all 0.5s ease-in-out 0s;   
+    transition: all 0.5s ease-in-out 0s;  	
+}
+.bg_03_ri_bot .right li img:hover{
+    transform: scale(1.15);   
+    -webkit-transform: scale(1.15);  
+    -moz-transform: scale(1.15);   
+    -o-transform: scale(1.15); 
+}
+.bg_03_ri_bot .right li a{
+	color: #323333;
+}
+.bg_03_ri_bot .right li a span:hover{
+	color: #e71f1a;
+}
+.jchd{
+	width: 270px;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*车型卖点      结束*/
+
+
+/*标题新闻      开始*/
+ .bg_04{
+	height: 423px;
+	background: url(../images/bg_04.jpg) no-repeat center top;
+}
+ .bg_04 .main{
+	height: 423px;
+	background: url(../images/bg_04.jpg) no-repeat center top;
+}
+.bg_04_top_bt{
+	margin: 20px 0;
+}
+.bg_04_mid_bt{
+	width: 830px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: 100px;
+}
+.bg_04_mid_bt .left{
+	width: 135px;
+	height: 100px;
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+}
+.bg_04_mid_bt .right{
+	width: 675px;
+	height: 60.4px;
+	float: left;
+	background: #3f3c3c;
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.bg_04_mid_bt a h3{
+	font-size: 18px;
+	color: #fff;
+}
+.bg_04_mid_bt a h4{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+}
+.bg_04_bot{
+	margin:10px 0 0 100px;
+	width:830px;
+	height: 202px;
+}
+.bg_04_bot .left{
+	float: left;
+	width: 350px;
+	height: 202px;
+	margin-left: 30px;
+}
+.bg_04_bot .left img{
+	width: 100%;
+	height: 100%;
+}
+.bg_04_bot .right{
+	float: right;
+	width: 400px;
+	height: 202px;
+}
+.mCustomScrollBox{
+	padding-right: 15px;
+}
+.mCSB_scrollTools{
+	right: 0;
+	bottom: 0;
+	height: 202px;
+}
+.mCSB_dragger_bar {
+    width: 8px;
+    height: 60px;
+    left: 0px;
+    top: 2px;
+    cursor: pointer;
+    background: #e71f1a;
+}
+.mCSB_draggerRail {
+    width: 8px;
+    height: 202px;
+    background: #3f3c3c;
+}
+.bg_04_bot li{
+	padding: 12px 0;
+}
+.bg_04_bot li:hover{
+	background: #d7d4d1;
+}
+.bg_04_bot li a{
+	color: #000;
+}
+
+.order_num{
+	font-size: 18px;
+	padding: 0 23px 0 20px;
+}
+/*标题新闻      结束*/
+
+/*推荐车型      结束*/
+ .bg_05{
+	height: 745px;
+	background: url(../images/bg_05.jpg) no-repeat center top;
+}
+ .bg_05 .main{
+	height: 745px;
+	background: url(../images/bg_05.jpg) no-repeat center top;
+}
+.bg_05_top_bt{
+	margin-top: 30px;
+}
+.bg_05_bot{
+	margin:35px 0 0 100px;
+	overflow: hidden;
+}
+.bg_05_bot ul li{
+	float: left;
+	width: 145px;
+    position: relative;
+    height: 350px;
+}
+.bg_05_bot ul li+li{
+	margin-left:50px;
+}
+.bg_05_bot ul li h2{
+	font-size: 42px;
+}
+.bg_05_bot ul li h5{
+	font-size: 18px;
+	margin: 15px 0;
+}
+.bg_05_bot ul li .detail{
+	margin-bottom: 30px;
+}
+.btn_detail a{
+	background: #3f3c3c;
+	border-radius: 3px;
+	position: absolute;
+	bottom: 0;
+	width: 90px;
+	height: 26px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+}
+.btn_detail a:hover{
+	background: #e71f1a;
+	color: #000;
+}
+/*推荐车型      结束*/
+
+/*活动实拍     开始*/
+ .bg_06{
+	height: 733px;
+	background: url(../images/bg_06.jpg) no-repeat center top;
+}
+ .bg_06 .main{
+	height: 733px;
+	background: url(../images/bg_06.jpg) no-repeat center top;
+}
+.bg_06_top_bt{
+	margin-top: 50px;
+}
+.bg_06_bot{
+	position: relative;
+	margin:50px 0 0 100px;
+	height: 461px;
+}
+.bg_06_bot .bd li{
+	width: 1120px;
+}
+.bg_06_bot .left{
+	float: left;
+	width: 850px;
+	height: 461px;
+	overflow: hidden;
+}
+.bg_06_bot .left img,.bg_06_bot .right li img{
+	width: 100%;
+	height: 100%;
+    transition: all 0.5s ease-in-out 0s;  	
+	-moz-transition: all 0.5s ease-in-out 0s;   
+    -o-transition: all 0.5s ease-in-out 0s;   
+    -webkit-transition: all 0.5s ease-in-out 0s;   
+}
+.bg_06_bot .left img:hover,.bg_06_bot .right li img:hover{
+    transform: scale(1.15);   
+    -webkit-transform: scale(1.15);  
+    -moz-transform: scale(1.15);   
+    -o-transform: scale(1.15); 
+}
+.bg_06_bot .right{
+	float: left;
+	margin-left: 20px;
+	width: 250px;
+	height: 461px;
+}
+.bg_06_bot .right li{
+	overflow: hidden;
+	width: 250px;
+	height: 143px;
+}
+.bg_06_bot .right li+li{
+	margin-top: 16px;
+}
+.bg_06_bot .hd{
+    position: absolute;
+    left: 400px;
+    z-index: 2;
+    bottom: 20px;
+}
+.bg_06_bot .hd li{
+	width: 10px;
+	height: 10px;
+	background: url(../images/circle.png) no-repeat center center;
+	margin-right: 10px;
+	cursor: pointer;
+	float: left;
+}
+.bg_06_bot .hd li.on{
+	background: url(../images/circle_hover.png) no-repeat center center;
+}
+/*活动实拍      结束*/
+ .bg_07{
+	height: 270px;
+	background: #232424;
+}
+ .bg_07 .main>p{
+ 	margin: 10px 0 10px 80px;
+ 	font-size: 18px;
+ }
+ .bg_07 .main{
+	height: 270px;
+	color: #fff;
+	font-size: 11px;
+}
+.company{
+
+}
+.company li{
+	float: left;
+	width: 250px;
+	margin-left: 80px;
+	line-height: 18px;
+    height: 67px;
+}
+.company li .tel{
+	margin-left: 10px;
+}
+.actGotop {
+    bottom: 100px;
+    display: none;
+    height: 55px;
+    position: fixed;
+    right: 50px;
+    width: 55px;
+    z-index: 200;
+}
+.actGotop a, .actGotop a:link {
+    background: rgba(0, 0, 0, 0.7) url(../images/gotop.png) no-repeat scroll 0 0;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+}
